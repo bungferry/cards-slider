@@ -37,9 +37,9 @@ const piModalContent = `
 		<p>A simple app which shows content in a scroll up animation when hovered over on the image cards. It's responsive to different screen sizes.</p>
 
 		<ul>
-			<li><a title="On my website" href="https://content-scroll-up.iamdanial.com/">On my website</a></li>
-			<li><a title="On GitHub" href="https://github.com/DanialZahid/Image-Cards-With-Content-Scroll-Up/">On GitHub</a></li>
-			<li><a title="On CodePen" href="https://codepen.io/danialzahid/pen/GRmKEqx/">On CodePen</a></li>
+			<li><a title="On my website" href="https://bungferry.my.if">On my website</a></li>
+			<li><a title="On GitHub" href="https://bungferry.github.io/layout/">On GitHub</a></li>
+			<li><a title="On CodePen" href="https://www.facebook.com/bungferry.wa">On Facebook</a></li>
 		</ul>
 
 		<h3>External Assets</h3>
@@ -50,7 +50,7 @@ const piModalContent = `
 
 		<h3>License</h3>
 
-		<p><a title="MIT" href="https://github.com/DanialZahid/Image-Cards-With-Content-Scroll-Up/blob/main/LICENSE/">MIT</a></p>
+		<p><a title="MIT" href="#">MIT</a></p>
 
 	</div>
 </div>
