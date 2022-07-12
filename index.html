@@ -9,6 +9,29 @@
     <title>404</title>
     <link href="style.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Cousine&display=swap" rel="stylesheet">
+    <style>
+.layered-card {
+                        position: relative;
+                    }
+
+                    .layered-card::before {
+                        background: rgba(0, 0, 0, 0.3);
+                        content: '';
+
+                        /* Position */
+                        top: 0;
+                        left: 0;
+                        position: absolute;
+                        transform: translate(1rem, 1rem);
+
+                        /* Size */
+                        height: 100%;
+                        width: 100%;
+
+                        /* Display under the main content */
+                        z-index: -1;
+                    }
+    </style>
   </head>
   <body>
     <main>
@@ -16,6 +39,9 @@
         404<span class="blink">|</span>
       </h1>
       <a href="/">&leftarrow;</a>
+      <div class="layered-card">
+    ...
+</div>
     </main>
   </body>
 </html>
