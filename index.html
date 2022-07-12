@@ -1,46 +1,152 @@
-<!doctype html>
-<html>
-  <head>
-    <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
-    <meta content="text/html; charset=utf-8" http-equiv="content-type">
-    <meta content="http://muan.co/images/og.png" property="og:image">
-    <meta content="@muanchiou" property="og:title">
-    <meta content="http://muan.co" property="og:url">
-    <title>404</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Cousine&display=swap" rel="stylesheet">
-    <style>
-.layered-card {
-                        position: relative;
-                    }
+<!DOCTYPE html>
+<html lang="en">
 
-                    .layered-card::before {
-                        background: rgba(0, 0, 0, 0.3);
-                        content: '';
+<head>
+	<meta charset="utf-8">
 
-                        /* Position */
-                        top: 0;
-                        left: 0;
-                        position: absolute;
-                        transform: translate(1rem, 1rem);
+	<title>Image Cards With Content Scroll Up</title>
 
-                        /* Size */
-                        height: 100%;
-                        width: 100%;
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#2b69b5">
 
-                        /* Display under the main content */
-                        z-index: -1;
-                    }
-    </style>
-  </head>
-  <body>
-    <main>
-      <div class="demo__live">
-      <div style="align-items:center;display:flex;height:100%;justify-content:center;padding:8px">
-      <div class="layered-card">
-      <div style="border:1px solid rgba(0, 0, 0, 0.3);background:#FFF;height:12rem;width:12rem">
-      <img src="autor.jpg" alt="Placeholder"></div>
-      </div></div></div>
-    </main>
-  </body>
+	<!-- Meta tags -->
+
+	<meta name="author" content="Danial Zahid">
+
+	<meta name="title" property="og:title" content="Image Cards With Content Scroll Up">
+	<meta name="description" property="og:description" content="A simple app which shows content in a scroll up animation when hovered over on the image cards. It's responsive to different screen sizes.">
+	<meta name="image" property="og:image" content="https://content-scroll-up.iamdanial.com/assets/images/banner.jpg">
+	<meta property="og:url" content="https://content-scroll-up.iamdanial.com/">
+	<meta property="og:site_name" content="Image Cards With Content Scroll Up">
+	<meta property="og:type" content="website">
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@IAmDanialZahid">
+	<meta name="twitter:creator" content="@IAmDanialZahid">
+	<meta name="twitter:title" content="Image Cards With Content Scroll Up">
+	<meta name="twitter:description" content="A simple app which shows content in a scroll up animation when hovered over on the image cards. It's responsive to different screen sizes.">
+	<meta name="twitter:image" content="https://content-scroll-up.iamdanial.com/assets/images/banner.jpg">
+
+	<!-- Assets -->
+
+	<link rel="icon" href="./assets/images/logo.jpg">
+	<link rel="apple-touch-icon" href=" ./assets/images/logo.jpg">
+
+	<link rel="stylesheet" href="style.css">
+
+	<!-- Project Info -->
+
+	<link rel="stylesheet" href="styles.css">
+	<script defer src="info.js"></script>
+</head>
+
+<body>
+	<main>
+
+		<section class="cards-wrapper">
+
+			<div class="card">
+				<picture>
+					<source type="image/webp" srcset="https://d33wubrfki0l68.cloudfront.net/6b9c89683fd71a7769eb1b572f37e728438c5454/c195c/assets/images/image-01.webp">
+					<img loading="lazy" src="https://d33wubrfki0l68.cloudfront.net/d857a091d04542b2cc49ee322acb6dc3030b4ab2/060f6/assets/images/image-01.jpg" alt="Image 01" width="1000" height="500">
+				</picture>
+
+				<div class="overlay">
+					<h2>Technology</h2>
+					<div class="overlay-content">
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nisi deleniti, eaque necessitatibus
+							quibusdam quam ratione et quo voluptatum nulla, placeat esse consequatur officia? Similique obcaecati
+							ullam fugiat reiciendis vitae sapiente nam ratione aliquid commodi maiores. Ipsum suscipit quasi id
+							corrupti labore doloremque quibusdam nulla! Inventore modi minus reiciendis ea.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="card">
+				<picture>
+					<source type="image/webp" srcset="https://d33wubrfki0l68.cloudfront.net/2fe2aeab838c3b43cd4c1566934ac15d991d7330/67e90/assets/images/image-02.webp">
+					<img loading="lazy" src="https://d33wubrfki0l68.cloudfront.net/d826e41b2c4768da63468a56274ee1615c119453/cb3f0/assets/images/image-02.jpg" alt="Image 02" width="1000" height="500">
+				</picture>
+
+				<div class="overlay">
+					<h2>Collaboration</h2>
+					<div class="overlay-content">
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos sequi, neque iusto praesentium
+							voluptate laborum asperiores molestias perspiciatis ex est iste ducimus non doloribus obcaecati ipsam
+							debitis cum! Eaque incidunt minus error voluptatem veniam laboriosam!</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="card">
+				<picture>
+					<source type="image/webp" srcset="https://d33wubrfki0l68.cloudfront.net/4b394c045b3fb533f916b696cfe7dec71d86566f/70103/assets/images/image-03.webp">
+					<img loading="lazy" src="https://d33wubrfki0l68.cloudfront.net/f6b8f01baa3100b16125a8d4d1dedd5bd8951de8/e5d8d/assets/images/image-03.jpg" alt="Image 03" width="1000" height="500">
+				</picture>
+
+				<div class="overlay">
+					<h2>Computing</h2>
+					<div class="overlay-content">
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque iure, modi explicabo suscipit totam, ullam
+							optio, commodi ducimus quae perferendis libero delectus eligendi ut! Maiores dolorem similique minus
+							maxime explicabo nisi nemo impedit, voluptates in odit saepe cumque quo ratione reprehenderit! Dolorum
+							laborum, itaque nihil blanditiis et deserunt, perferendis temporibus ex neque reiciendis illo cum
+							accusamus ipsum ea nostrum accusantium!</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="card">
+				<picture>
+					<source type="image/webp" srcset="https://d33wubrfki0l68.cloudfront.net/5eaee314930da0dc039586f52c79bd084652db5f/8c040/assets/images/image-04.webp">
+					<img loading="lazy" src="https://d33wubrfki0l68.cloudfront.net/c7a521434ea63f7a6454a9bd05c1709b0df0e048/9146d/assets/images/image-04.jpg" alt="Image 04" width="1000" height="500">
+				</picture>
+
+				<div class="overlay">
+					<h2>Architecture</h2>
+					<div class="overlay-content">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio necessitatibus amet, natus velit odio
+							sapiente nemo maxime quae voluptatem esse consectetur soluta. Qui id impedit quos, natus est totam
+							similique.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="card">
+				<picture>
+					<source type="image/webp" srcset="https://d33wubrfki0l68.cloudfront.net/21bc0f309d53a4b1483b8f704f090c45e2397238/c8a1c/assets/images/image-05.webp">
+					<img loading="lazy" src="https://d33wubrfki0l68.cloudfront.net/3a4c08976b82bf76221b50c5bc4059a1514eaad0/ce5b0/assets/images/image-05.jpg" alt="Image 05" width="1000" height="500">
+				</picture>
+
+				<div class="overlay">
+					<h2>Business Communication</h2>
+					<div class="overlay-content">
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim accusamus soluta nesciunt facere odit
+							aspernatur non mollitia sint molestiae, quasi atque ipsa natus veritatis placeat sit necessitatibus
+							laudantium beatae autem sapiente repudiandae ab quae! Nobis nesciunt veniam amet error hic.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="card">
+				<picture>
+					<source type="image/webp" srcset="https://d33wubrfki0l68.cloudfront.net/4986bc611735386b9a9252f62dfb18dffb828e54/7d34c/assets/images/image-06.webp">
+					<img loading="lazy" src="https://d33wubrfki0l68.cloudfront.net/e4959f9412243cbb05c3a94a2d501418ffaf7a5c/81e87/assets/images/image-06.jpg" alt="Image 06" width="1000" height="500">
+				</picture>
+
+				<div class="overlay">
+					<h2>Remote Work</h2>
+					<div class="overlay-content">
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam possimus ex, at dolorum omnis ullam
+							magnam quasi, adipisci fugit, repellendus dolorem aut ipsum? Et, molestiae minus. Aliquam earum facilis
+							velit?</p>
+					</div>
+				</div>
+			</div>
+
+		</section>
+	</main>
+
+</body>
+
 </html>
