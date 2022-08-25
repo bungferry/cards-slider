@@ -48,9 +48,9 @@ const piModalContent = `
 			<li><a title="Unsplash" href="https://unsplash.com/">Unsplash</a> — Images</li>
 		</ul>
 
-		<h3>License</h3>
+		<h3>Donate</h3>
 
-		<p><a title="MIT" href="#">MIT</a></p>
+		<p><a href="https://saweria.co/bungferry">Sharing is beautiful, no matter how many rupiahs it is important to be sincere.</a></p>
 
 	</div>
 </div>
